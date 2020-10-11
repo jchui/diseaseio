@@ -15,14 +15,16 @@ render() {
               </div>
           </div>
       </div>
-      
+
       <hr/>
 
       <div className="container">
           <div className="columns">
               <div className="column">
                 <p>
-                    Disease.io Copyright &copy; 2020.
+                    Disease.io Copyright &copy; 2020. 
+                    All rights reserved. 
+                    This site is designed for medical professionals only.
                 </p>
               </div>
           </div>

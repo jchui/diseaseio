@@ -150,6 +150,26 @@ h2 {
 
 }
 
+// Footer
+footer {
+    background-color: $header-color;
+
+    hr {
+        margin: 0;
+        background-color: #314246;
+    }
+
+    img {
+        height: 60px;
+    }
+
+    p {
+        color: $header-text-color;
+        padding: 10px 0 0 0;
+        font-size: 0.9em;
+    }
+}
+
 // Smaller screen fixes
 @media screen and (max-width: 1023px) {
     .navbar-menu {
