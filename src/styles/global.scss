@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+// If need, change your variables before importing Bulma
+$title-color: #ff0000;
+$primary-color: lightblue;
+
+@import "~bulma/bulma.sass";
+
+// CSS Stylesheet
+html {
+    background-color: $primary-color;
+}
+
+
+// Navigation Bar
+
+.navbar {
+    background-color: #000;
+    padding: 10px 30px;
+}
+
+.navbar .logo {
+    height: 75px;
+    max-height: none;
+}

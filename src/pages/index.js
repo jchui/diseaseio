@@ -1,14 +1,26 @@
 import React from "react"
-import { Link } from "gatsby"
 import Header from "../components/header"
 
 export default function Home() {
   return (
-    <div style={{ color: `purple` }}>
-      <Link to="/contact/">Contact</Link>
-      <Header headerText="Hello Gatsby!" />
-      <p>What a world.</p>
-      <img src="https://source.unsplash.com/random/400x200" alt="" />
+    <div>
+
+      <Header />
+
+      <div className="container">
+      <div className="columns">
+        <div className="column">
+          <h2 className="title is-2">Level 2 heading</h2>
+          <p className="content">Cool content. Using Bulma!</p>
+        </div>
+        <div className="column">
+          <h2 className="title is-2">Level 2 heading</h2>
+          <p className="content">This column is cool too!</p>
+        </div>
+      </div>
+      </div>
+
     </div>
-  )
+
+  );
 }
