@@ -7,18 +7,18 @@ export default function Home() {
 
       <Header />
 
-      <div className="container">
-      <div className="columns">
-        <div className="column">
-          <h2 className="title is-2">Level 2 heading</h2>
-          <p className="content">Cool content. Using Bulma!</p>
+      <section className="welcome">
+        <div className="container">
+        <div className="columns">
+          <div className="column">
+            <h1>
+              A collaborative learning platform designed 
+              for junior doctors working in Emergency Medicine.
+            </h1>
+          </div>
         </div>
-        <div className="column">
-          <h2 className="title is-2">Level 2 heading</h2>
-          <p className="content">This column is cool too!</p>
         </div>
-      </div>
-      </div>
+      </section>
 
     </div>
 

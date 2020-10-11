@@ -15,6 +15,15 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+h1 {
+    font-size: 2em;
+}
+
+// Container {
+.container {
+    max-width: 800px;
+}
+
 // Navigation Bar
 .navbar {
     background-color: $header-color;
@@ -63,6 +72,17 @@ body {
 
 }
 
+// Welcome Display 
+.welcome {
+    background-color: $header-color;
+    padding: 80px;
+
+    h1 {
+        color: $header-text-color;
+    }
+}
+
+// Smaller screen fixes
 @media screen and (max-width: 1023px) {
     .navbar-menu {
         background-color: $header-color;
