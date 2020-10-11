@@ -15,10 +15,9 @@ render() {
  return (
   <nav className="navbar" role="navigation" aria-label="main navigation">
     <div className="navbar-brand">
-      <a className="navbar-item" href="https://bulma.io">
+      <a className="navbar-item logo" href="../">
         <img
           src={LogoImg}
-          className="logo"
           alt=""
         />
       </a>
@@ -44,17 +43,16 @@ render() {
     >
       <div className="navbar-start">
         <a className="navbar-item">Home</a>
-
-        <a className="navbar-item">Documentation</a>
+        <a className="navbar-item">About Us</a>
+        <a className="navbar-item">Disclaimer</a>
       </div>
 
       <div className="navbar-end">
         <div className="navbar-item">
           <div className="buttons">
             <a className="button is-primary">
-              <strong>Sign up</strong>
+              <strong>Get Involved</strong>
             </a>
-            <a className="button is-light">Log in</a>
           </div>
         </div>
       </div>

@@ -2,24 +2,90 @@
 
 // If need, change your variables before importing Bulma
 $title-color: #ff0000;
-$primary-color: lightblue;
+$header-color: #0D1B1E;
+$header-text-color: #fff;
+$primary-color: #7798AB;
+$primary-color-dark: #4E6D7E;
 
 @import "~bulma/bulma.sass";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap');
 
 // CSS Stylesheet
-html {
-    background-color: $primary-color;
+body {
+    font-family: 'Nunito', sans-serif;
 }
-
 
 // Navigation Bar
-
 .navbar {
-    background-color: #000;
+    background-color: $header-color;
     padding: 10px 30px;
+
+    .logo img {
+        height: 75px;
+        max-height: none;
+    }
+
+    .navbar-item {
+        color: $header-text-color;
+        font-weight: 700;
+        padding: 0px 30px;
+        border-bottom: 2px solid $header-color;
+        letter-spacing: 1px;
+    }
+
+    a.navbar-item.logo:focus, a.navbar-item.logo:hover {
+        border-bottom: 2px solid $header-color !important; 
+    }
+    
+    a.navbar-item:focus, a.navbar-item:focus-within, 
+    a.navbar-item:hover, a.navbar-item.is-active, 
+    .navbar-link:focus, .navbar-link:focus-within, 
+    .navbar-link:hover, .navbar-link.is-active {
+        background-color: $header-color; 
+        color: $header-text-color;
+        border-bottom: 2px solid $header-text-color;     
+    }
+
+    .navbar-burger {
+        height: auto;
+        color: $header-text-color;
+    }
+
+    .button.is-primary {
+        background-color: $primary-color;
+        font-size: 0.9em;
+        padding: 15px 30px;
+    }
+
+    .button.is-primary:hover {
+        background-color: $primary-color-dark;
+    }
+
 }
 
-.navbar .logo {
-    height: 75px;
-    max-height: none;
+@media screen and (max-width: 1023px) {
+    .navbar-menu {
+        background-color: $header-color;
+        text-align: center;
+    }
+
+    .navbar a.navbar-item:focus, 
+    .navbar a.navbar-item:focus-within, 
+    .navbar a.navbar-item:hover, .navbar a.navbar-item.is-active, 
+    .navbar .navbar-link:focus, .navbar .navbar-link:focus-within, 
+    .navbar .navbar-link:hover, .navbar .navbar-link.is-active {
+        border-bottom: 2px solid $header-color; 
+    }
+
+    .navbar .navbar-item {
+        padding: 15px 30px;
+    }
+
+    .navbar a.navbar-item.logo {
+        padding: 0 30px;
+    }
+
+    .navbar-end .buttons {
+        display: block;
+    }
 }
