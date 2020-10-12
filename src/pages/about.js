@@ -1,7 +1,6 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import Link from 'gatsby-link'
 
 export default function About() {
   return (
@@ -48,7 +47,7 @@ export default function About() {
                     </p>
                     <p>
                         If you are interested in joining our 
-                        team, drop a message to <Link to="mailto:hello@disease.io">hello@disease.io</Link>.
+                        team, drop a message to <a href="mailto:hello@disease.io">hello@disease.io</a>.
                     </p>
 
                     <hr/>
