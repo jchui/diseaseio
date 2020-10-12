@@ -104,6 +104,7 @@ export default function Home() {
                   <li><Link>Psychiatry</Link></li>
                   <li><Link>Renal</Link></li>
                   <li><Link>Respiratory</Link></li>
+                  <li><Link>Rheumatology</Link></li>
                   <li><Link>Stroke</Link></li>
                 </ul>
               </div>

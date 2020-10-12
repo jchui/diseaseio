@@ -70,7 +70,12 @@ export default function About() {
                     <h3>Authors</h3>
                     <ul>
                         <li>
-                            ---
+                            Dr. Abdullah Aamir MBChB BSc PGCert
+                            <span>Ophthalmology ST1 Trainee, London</span>
+                        </li>
+                        <li>
+                            Dr. Raj Amarnani MBChB BSc(Hons) MSc(Dist)
+                            <span>Internal Medicine IMT2 Trainee, London</span>
                         </li>
                     </ul>
 
