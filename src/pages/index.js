@@ -98,7 +98,6 @@ export default function Home() {
                   <li><Link>Intensive Care Medicine</Link></li>
                   <li><Link>Obstetrics & Gynaecology</Link></li>
                   <li><Link>Oncology</Link></li>
-                  <li><Link>Ophthalmology</Link></li>
                   <li><Link>Neurology</Link></li>
                   <li><Link>Paediatrics</Link></li>
                   <li><Link>Palliative</Link></li>
@@ -106,7 +105,6 @@ export default function Home() {
                   <li><Link>Renal</Link></li>
                   <li><Link>Respiratory</Link></li>
                   <li><Link>Stroke</Link></li>
-                  <li><Link></Link></li>
                 </ul>
               </div>
 
@@ -117,9 +115,10 @@ export default function Home() {
                   <p>Surgical Specialties</p>
                   <ul>
                     <li><Link>Cardiothoracics</Link></li>
-                    <li><Link>Ear, Nose, & Throat</Link></li>
+                    <li><Link>Ears, Nose & Throat</Link></li>
                     <li><Link>General</Link></li>
                     <li><Link>Neurosurgery</Link></li>
+                    <li><Link>Ophthalmology</Link></li>
                     <li><Link>Oral & Maxillofacial</Link></li>
                     <li><Link>Paediatric</Link></li>
                     <li><Link>Plastic</Link></li>
