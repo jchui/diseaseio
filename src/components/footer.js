@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import LogoImg from "../assets/logo.png"
-import Link from 'gatsby-link'
 
 class Footer extends Component {
 

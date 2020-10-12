@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import LogoImg from "../assets/logo.png"
 import Link from 'gatsby-link'
+import SEO from "../components/seo"
 
 class Navbar extends Component {
   constructor(props) {
@@ -14,6 +15,7 @@ render() {
 
  return (
   <nav className="navbar" role="navigation" aria-label="main navigation">
+    <SEO title="Welcome" description="A collaborative learning platform designed for junior doctors working in Emergency Medicine." />
     <div className="navbar-brand">
       <a className="navbar-item logo" href="../">
         <img

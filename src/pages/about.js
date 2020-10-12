@@ -2,8 +2,6 @@ import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import Link from 'gatsby-link'
-import { FaSearch } from 'react-icons/fa'
-import { FaArrowRight } from 'react-icons/fa'
 
 export default function About() {
   return (
