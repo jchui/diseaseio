@@ -43,14 +43,14 @@ render() {
     >
       <div className="navbar-start">
         <Link className="navbar-item" to="/">Home</Link>
-        <Link className="navbar-item" to="about">About Us</Link>
-        <Link className="navbar-item" to="disclaimer">Disclaimer</Link>
+        <Link className="navbar-item" to="../about">About Us</Link>
+        <Link className="navbar-item" to="../disclaimer">Disclaimer</Link>
       </div>
 
       <div className="navbar-end">
         <div className="navbar-item">
           <div className="buttons">
-            <Link className="button is-primary" to="/">
+            <Link className="button is-primary" to="../about">
               <strong>Get Involved</strong>
             </Link>
           </div>

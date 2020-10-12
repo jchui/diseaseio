@@ -31,7 +31,7 @@ export default function Home() {
               <p>
                 This resource is temporarily disabled while we 
                 curate our content. If you would like to be 
-                part of this project, please contact <Link href="mailto:hello@disease.io">hello@disease.io</Link>.
+                part of this project, please contact <Link to="mailto:hello@disease.io">hello@disease.io</Link>.
               </p>
             </div>
           </div>
