@@ -42,17 +42,17 @@ render() {
       className={"navbar-menu " + (this.state.active ? "is-active" : "")}
     >
       <div className="navbar-start">
-        <a className="navbar-item">Home</a>
-        <a className="navbar-item">About Us</a>
-        <a className="navbar-item">Disclaimer</a>
+        <Link className="navbar-item" to="/">Home</Link>
+        <Link className="navbar-item" to="about">About Us</Link>
+        <Link className="navbar-item" to="disclaimer">Disclaimer</Link>
       </div>
 
       <div className="navbar-end">
         <div className="navbar-item">
           <div className="buttons">
-            <a className="button is-primary">
+            <Link className="button is-primary" to="/">
               <strong>Get Involved</strong>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
