@@ -2,6 +2,7 @@ import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import { FaSearch } from 'react-icons/fa'
+import { FaArrowRight } from 'react-icons/fa'
 
 export default function Home() {
   return (
@@ -22,11 +23,21 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="search">
-        <span class="icon is-small is-right">
-          <i class="fas fa-check"></i>
-        </span>
+      <section className="disabled">
+        <div className="container">
+          <div className="columns">
+            <div className="column">
+              <p>
+                This resource is temporarily disabled while we 
+                curate our content. If you would like to be 
+                part of this project, please contact <a href="mailto:hello@disease.io">hello@disease.io</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section className="search">
         <div className="container">
           <div className="columns">
             <div className="column">
@@ -34,6 +45,9 @@ export default function Home() {
               <input className="input" placeholder="Search" />
               <span class="icon is-small is-left">
                 <FaSearch/>
+              </span>
+              <span class="icon is-small is-right">
+                <FaArrowRight/> 
               </span>
             </div>
             </div>

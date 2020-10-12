@@ -89,6 +89,28 @@ h2 {
     }
 }
 
+// Disabled
+.disabled {
+
+    padding: 30px 0;
+
+    p {
+        background-color: #fff;
+        padding: 20px 30px;
+        border-radius: 5px;
+        border: 1px solid #E0978F;
+    }
+
+    a {
+        color: $primary-color-dark;
+    }
+
+    a:hover {
+        color: $primary-color;
+    }
+    
+}
+
 // Search Bar
 .search {
     input {
