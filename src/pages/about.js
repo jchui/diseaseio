@@ -56,7 +56,7 @@ export default function About() {
                     <ul>
                         <li>
                             Dr. Jeremy Tsz Kwan Chui MBChB BMedSci(Hons)
-                            <span>ACCS ST1 Emergency Medicine Trainee, London</span>
+                            <span>Emergency Medicine ACCS ST1 Trainee, London</span>
                         </li>
                     </ul>
 
@@ -77,9 +77,17 @@ export default function About() {
                             Dr. Raj Amarnani MBChB BSc(Hons) MSc(Dist)
                             <span>Internal Medicine IMT2 Trainee, London</span>
                         </li>
+                        <li>
+                            Dr. Shenelle Siriwardena MBChB
+                            <span>General Practice GPST1 Trainee, London</span>
+                        </li>
+                        <li>
+                            Dr. Nihaad Syed MBChB
+                            <span>General Practice GPST1 Trainee, London</span>
+                        </li>
                     </ul>
 
-                    <h3>Engineering</h3>
+                    <h3>Engineering & Design</h3>
                     <ul>
                         <li>
                             ---
